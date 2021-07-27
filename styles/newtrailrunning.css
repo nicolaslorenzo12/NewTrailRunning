@@ -1,0 +1,41 @@
+.myMainImage {
+	background-image: url("../images/trail.jpg");
+	background-repeat: no-repeat;
+	animation-name: imageAnimation;
+	animation-duration: 0.5s;
+	margin-bottom: 30px;
+	height:500px;
+}
+
+.menu{
+	display: flex;
+	justify-content: center;
+	color: rgb(100, 100, 100);
+}
+.menuparagraph{
+	margin-right: 15px;
+	font-size: 18px;
+}
+.header{
+	color: rgb(0, 50, 100);
+	text-align: center;
+	font-size:40px;
+	margin-top:8%;
+}
+.content{
+	margin: auto;
+	width: 50%;
+	line-height:1.6;
+}
+.content, p{
+	font-size: 15px;
+	font-family: Verdana, sans-serif;
+	color: grey;
+	margin-bottom: 10px;
+	text-align:left;
+}
+.nameRunners{
+	font-size: 25px;
+	color:grey;
+	margin-left:5px;
+}
