@@ -1,5 +1,5 @@
 .myMainImage {
-	background-image: url("../images/trail.jpg");
+	background-image: url("../Images/trail.jpg");
 	background-repeat: no-repeat;
 	animation-name: imageAnimation;
 	animation-duration: 0.5s;
@@ -33,6 +33,7 @@
 	color: grey;
 	margin-bottom: 10px;
 	text-align:left;
+	margin-top: 10px;
 }
 .nameRunners{
 	font-size: 25px;
