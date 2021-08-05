@@ -1,3 +1,55 @@
+@media screen and (max-width:999px) {
+	.content{
+		width:100%;
+	}
+	.imageRunner{
+		padding-left:0;
+	}
+	.col-xs-6 {
+		padding-left:0;
+	}
+	
+	.mt-auto{
+		margin-left:0px;
+		margin-right:0px;
+	}
+	.content, p{
+		margin-left:3px;
+		margin-right: 2px;
+	}
+	.form-control{
+		margin-left:1px;
+	}
+	.container{
+		padding-left:0;
+		margin-left: 3px;
+	}
+	.header{
+		margin-top:20%;
+	}
+	
+}
+@media screen and (max-width:600px) {
+	
+	.col-xs-6 {
+		width: 100%;
+	}
+	.header{
+		font-size:22px;
+	}
+	.mt-auto{
+		padding-left:15px;
+	}
+	.imageRunner{
+		margin-left:12px;
+	}
+}
+
+.mt-auto{
+		margin-top:auto;
+		padding-top:20%;
+}
+
 .myMainImage {
 	background-image: url("../Images/trail.jpg");
 	background-repeat: no-repeat;
@@ -19,12 +71,9 @@
 .header{
 	color: rgb(0, 50, 100);
 	text-align: center;
-	font-size:40px;
-	margin-top:8%;
 }
 .content{
 	margin: auto;
-	width: 50%;
 	line-height:1.6;
 }
 .content, p{
@@ -40,14 +89,36 @@
 	color:grey;
 	margin-left:5px;
 }
-.col-xs-6 {
+
+.container{
+	margin-bottom:10px;
+}
+.imageRunner{
+		width:101%;
+}
+	
+
+@media screen and (min-width:1000px) {
+	.mt-auto{
+	margin-top: auto;
+	padding-top:200px;
+	font-size:17px;
+	}
+	.content{
+		width:50%;
+	}
+	.header{
+		font-size:40px;
+		margin-top:8%;
+	}
+	.col-xs-6 {
 	padding-left: 0;
 	margin-top: 10px;
 	margin-bottom:10px;
-}
-.mt-auto{
-	margin-top: auto;
-	padding-top:200px;
+	}
+	.form-control{
+		width:50%;
+	}
 }
 
 
